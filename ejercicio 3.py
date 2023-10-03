@@ -1,0 +1,6 @@
+name = input("escriba el nombre")
+edad = int(input("escriba la edad"))
+pais = input("escriba su pais de origen")
+edadFaltante = (22-edad)
+edadFaltanteStr = str(edadFaltante)
+print("! Hola, "+ name +" ¡ " + "Gracias por conectarte desde" + pais + "." + "Ya solo faltan " + edadFaltanteStr + "años para poder trabajar con nosotros" ".")

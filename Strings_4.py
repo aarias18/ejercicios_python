@@ -1,0 +1,22 @@
+name = input("write your name")
+lastName = input("write your lastname")
+year = input("year of publication")
+bookName = input(" write the book name")
+city = input("writr the city of publication")
+editorial = input("write the editorial name")
+nameInitial = name[0]
+nameUpper = nameInitial.upper()
+#finalName = name.replace(nameInitial, nameUpper)
+lastNamIn = lastName[0]
+lastNamUp = lastNamIn.upper()
+finalLastNam = lastName.replace(lastNamIn, lastNamUp)
+bookNameIn = bookName[0]
+bookNameUp = bookNameIn.upper()
+finalbookName = bookName.replace(bookNameIn, bookNameUp)
+cityIn = city[0]
+cityUp = cityIn.upper()
+Finalcity = city.replace(cityIn, cityUp)
+editorialIn = editorial[0]
+editorialUp = editorialIn.upper()
+finalEditoria = editorial.replace(editorialIn, editorialUp)
+print(f'''{finalLastNam}, {nameUpper}. ({year}). {finalbookName}. {Finalcity}: {finalEditoria}.''')
